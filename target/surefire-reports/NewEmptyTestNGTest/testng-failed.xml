@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [NewEmptyTestNGTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="NewEmptyTestNGTest">
+        <methods>
+          <include name="callGrid"/>
+          <include name="callBasic"/>
+          <include name="callPop"/>
+          <include name="callDrag"/>
+          <include name="callFrame"/>
+          <include name="launchBrowser"/>
+          <include name="callCookie"/>
+        </methods>
+      </class> <!-- NewEmptyTestNGTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [NewEmptyTestNGTest] -->

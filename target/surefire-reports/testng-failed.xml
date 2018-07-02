@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [testing.PageObjectTatocTestNGTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="testing.PageObjectTatocTestNGTest">
+        <methods>
+          <include name="callGrid"/>
+          <include name="launchBrowser"/>
+          <include name="callBasic"/>
+          <include name="closeBrowser"/>
+          <include name="callFrame"/>
+          <include name="callDrag"/>
+          <include name="callPop"/>
+          <include name="callCookie"/>
+        </methods>
+      </class> <!-- testing.PageObjectTatocTestNGTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [testing.PageObjectTatocTestNGTest] -->
